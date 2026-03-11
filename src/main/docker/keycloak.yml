@@ -3,7 +3,7 @@ name: kavatar-keycloak-dev
 services:
   kavatar-keycloak-dev:
     container_name: kavatar-keycloak-dev-container
-    image: keycloak/keycloak:26.5.4
+    image: keycloak/keycloak:26.5.5
     command:
       [
         'start-dev', '--import-realm'
